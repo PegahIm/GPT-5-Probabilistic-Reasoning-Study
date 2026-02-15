@@ -8,8 +8,8 @@ from openai import OpenAI
 
 # --------- CONFIGURATION ---------
 MODEL_NAME = "gpt-5-2025-08-07"
-DEMOGRAPHICS_FILE = "demographics/demographics_2028.txt"
-QUESTIONS_FILE = "questions/questions_2028.txt"
+DEMOGRAPHICS_FILE = "demographics/demographics_2028-T1LC.txt" # Need to be changed considering the group (T1CL vs. T2CL)
+QUESTIONS_FILE = "questions/questions_2028-T1LC.txt" # Need to be changed considering the group (T1CL vs. T2CL)
 OUTPUT_DIR = "data_gpt_raw"
 # ---------------------------------
 
