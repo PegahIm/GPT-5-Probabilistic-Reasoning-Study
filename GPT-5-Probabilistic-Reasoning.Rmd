@@ -1,0 +1,495 @@
+---
+title: "GPT-5-Probabilistic-Reasoning"
+author: "Pegah Imannezhad"
+date: "2026-02-09"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+# Project Overview
+
+This document contains the full analysis pipeline for the project *GPT‑5 Probabilistic Reasoning*.  
+It includes:
+
+- Data loading and preprocessing  
+- Recoding of demographic variables  
+- Descriptive statistics and visualizations  
+- Paired t‑tests comparing GPT‑5 and human responses  
+- Political sensitivity analyses (T1 and T2)  
+- ANCOVA models examining persona effects  
+- Independent t‑tests comparing GPT‑5 2020 vs 2028 predictions  
+
+All analyses are fully reproducible using the datasets stored in the `data/` folder and the figures generated in the `figures/` folder.
+ 
+# Libraries 
+
+```{r, message = FALSE}
+library(readxl)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(effsize)
+library(patchwork)
+library(tidyverse)
+```
+
+# Load the data
+
+```{r}
+data   <- read_excel(here("data", "GPT_Human_R.xlsx"), sheet = 1)
+df     <- read_excel(here("data", "GPT_Human_R.xlsx"), sheet = 2)
+data_F <- read_excel(here("data", "GPT_Human_R.xlsx"), sheet = 3)
+
+dfT1G <- read_excel(here("data", "Political.xlsx"), sheet = "T1")
+dfT2G <- read_excel(here("data", "Political.xlsx"), sheet = "T2")
+```
+
+# Recoding
+
+```{r}
+# Gender as factor 
+data <- data %>% 
+  mutate(Gender = factor(Gender)) 
+
+table(data$Gender) 
+table(data$Gender, data$group)
+```
+
+```{r}
+# Ordinal numeric coding for age (younger = lower value)
+data <- data %>%
+  mutate(age_num = as.numeric(factor(
+    Age,
+    levels = c("16-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84"),
+    ordered = TRUE
+  )))
+
+table(data$Age, data$age_num)
+```
+
+```{r}
+# Group as factor
+data <- data %>%
+  mutate(group = factor(group))
+
+table(data$group)
+```
+
+```{r}
+# Education collapsing (convert to factor)
+data <- data %>%
+  mutate(
+    edu_group = fct_collapse(
+      Education,
+      high_school = c("high school", "no high school education", "prefer not to say"),
+      some_college = c("freshman (1 year of college)",
+                       "sophomore (2 years of college)",
+                       "junior (3 years of college)"),
+      bachelors = "senior (4 years of college)",
+      postgraduate = c("masters", "doctorate", "other professional")
+    )
+  )
+
+table(data$edu_group)
+```
+
+# Descriptive statistics and long‑format transformations
+
+```{r}
+data_long <- data %>%
+  pivot_longer(
+    cols = starts_with("ave_"),
+    names_to = "Measure",
+    values_to = "Score"
+  ) %>%
+  mutate(
+    Source = ifelse(grepl("_G$", Measure), "GPT-5", "Human"),
+    Measure = gsub("_G$|_H$", "", Measure)
+  )
+```
+
+```{r}
+data_long %>%
+  group_by(Source, Measure) %>%
+  summarise(
+    mean = mean(Score, na.rm = TRUE),
+    sd   = sd(Score, na.rm = TRUE),
+    min  = min(Score, na.rm = TRUE),
+    max  = max(Score, na.rm = TRUE),
+    .groups = "drop"
+  )
+```
+
+## 1. Complementarity dataset
+
+```{r}
+comp_data <- data %>%
+  select(
+    Ps,
+    binary_complementarity_G, binary_complementarity_H,
+    joint_complementarity_G, joint_complementarity_H
+  ) %>%
+  pivot_longer(
+    cols = -Ps,
+    names_to = "Measure",
+    values_to = "Score"
+  ) %>%
+  mutate(
+    Source = ifelse(grepl("_G$", Measure), "GPT-5", "Human"),
+    Measure = gsub("_G$|_H$", "", Measure)
+  )
+
+```
+
+```{r}
+complementarity_violin <- ggplot(comp_data, aes(x = Source, y = Score, fill = Source)) +
+  geom_violin(trim = FALSE, scale = "width") +
+  stat_summary(fun = mean, geom = "point", shape = 23, size = 3,
+               fill = "black", color = "white") +
+  facet_wrap(
+    ~Measure,
+    scales = "free",
+    labeller = labeller(Measure = c(
+      "binary_complementarity" = "Marginal Complementarity",
+      "joint_complementarity"  = "Joint Complementarity"
+    ))
+  ) +
+  labs(
+    title = "Complementarity Deviations: Human vs. GPT-5",
+    x = "Source",
+    y = "Deviation from Complementarity"
+  ) +
+  theme_minimal(base_size = 14)
+
+ggsave(here("figures", "complementarity_violin.png"),
+       plot = complementarity_violin, width = 8, height = 6, dpi = 300)
+```
+
+## 2. Conjunction fallacies
+
+```{r}
+data_long_cf <- data_long %>%
+  filter(Measure %in% c("ave_CF", "ave_DCF"))
+
+cf_labels <- c(
+  "ave_CF"  = "Conjunction Fallacy",
+  "ave_DCF" = "Double Conjunction Fallacy"
+)
+
+cf_violin <- ggplot(data_long_cf, aes(x = Source, y = Score, fill = Source)) +
+  geom_violin(trim = FALSE, scale = "width") +
+  facet_wrap(~Measure, scales = "free", labeller = labeller(Measure = cf_labels)) +
+  labs(
+    title = "Conjunction Fallacies: Human vs. GPT-5",
+    x = "Source",
+    y = "Fallacy Rate"
+  ) +
+  theme_minimal(base_size = 14)
+
+ggsave(here("figures", "cf_violin.png"),
+       plot = cf_violin, width = 8, height = 6, dpi = 300)
+
+```
+
+## 3. Disjunction fallacies
+
+```{r}
+data_long_df <- data_long %>%
+  filter(Measure %in% c("ave_DF", "ave_DDF"))
+
+df_labels <- c(
+  "ave_DF"  = "Disjunction Fallacy",
+  "ave_DDF" = "Double Disjunction Fallacy"
+)
+
+df_violin <- ggplot(data_long_df, aes(x = Source, y = Score, fill = Source)) +
+  geom_violin(trim = FALSE, scale = "width") +
+  facet_wrap(~Measure, scales = "free", labeller = labeller(Measure = df_labels)) +
+  labs(
+    title = "Disjunction Fallacies: Human vs. GPT-5",
+    x = "Source",
+    y = "Fallacy Rate"
+  ) +
+  theme_minimal(base_size = 14)
+
+ggsave(here("figures", "df_violin.png"),
+       plot = df_violin, width = 8, height = 6, dpi = 300)
+```
+
+### Combined fallacy plot
+
+```{r}
+data_long_df <- data_long %>%
+  filter(Measure %in% c("ave_DF", "ave_DDF"))
+
+df_labels <- c(
+  "ave_DF"  = "Disjunction Fallacy",
+  "ave_DDF" = "Double Disjunction Fallacy"
+)
+
+df_violin <- ggplot(data_long_df, aes(x = Source, y = Score, fill = Source)) +
+  geom_violin(trim = FALSE, scale = "width") +
+  facet_wrap(~Measure, scales = "free", labeller = labeller(Measure = df_labels)) +
+  labs(
+    title = "Disjunction Fallacies: Human vs. GPT-5",
+    x = "Source",
+    y = "Fallacy Rate"
+  ) +
+  theme_minimal(base_size = 14)
+
+ggsave(here("figures", "df_violin.png"),
+       plot = df_violin, width = 8, height = 6, dpi = 300)
+
+```
+
+# Paired t‑tests: Complementarity & Fallacies
+
+```{r}
+# Define pairs of GPT vs Human variables
+pairs <- list(
+  BinaryComp = c("binary_complementarity_G", "binary_complementarity_H"),
+  JointComp  = c("joint_complementarity_G", "joint_complementarity_H"),
+  CF   = c("ave_CF_G", "ave_CF_H"),
+  DCF  = c("ave_DCF_G", "ave_DCF_H"),
+  DF   = c("ave_DF_G", "ave_DF_H"),
+  DDF  = c("ave_DDF_G", "ave_DDF_H")
+)
+```
+
+
+```{r}
+run_ttest <- function(var_pair, label) {
+  g <- data[[var_pair[1]]]   # GPT-5
+  h <- data[[var_pair[2]]]   # Human
+  
+  test <- t.test(g, h, paired = TRUE)
+  effect <- cohen.d(g, h, paired = TRUE)
+  
+  tibble(
+    Measure = label,
+    Mean_G = mean(g, na.rm = TRUE),
+    Mean_H = mean(h, na.rm = TRUE),
+    Mean_Diff = mean(h - g, na.rm = TRUE),
+    t_value = as.numeric(test$statistic),
+    df = as.numeric(test$parameter),
+    p_value = test$p.value,
+    cohen_d = effect$estimate
+  )
+}
+```
+
+```{r}
+ttest_results <- bind_rows(
+  lapply(names(pairs), function(label) run_ttest(pairs[[label]], label))
+)
+
+ttest_results
+```
+
+# Correlation Tests: CF vs DF
+
+```{r}
+# Human correlation
+cor_H <- cor.test(data$ave_DF_H, data$ave_CF_H, method = "pearson")
+
+# GPT-5 correlation
+cor_G <- cor.test(data$ave_DF_G, data$ave_CF_G, method = "pearson")
+
+cor_H
+cor_G
+```
+
+# Political Sensitivity (GPT)
+
+```{r}
+reshape_political <- function(df, triplet_label) {
+  df %>%
+    pivot_longer(
+      cols = -Ps,
+      names_to = c("Candidate", "State"),
+      names_pattern = "P\\(([^_]+)_(.*)\\)",
+      values_to = "prob"
+    ) %>%
+    mutate(Triplet = triplet_label)
+}
+
+```
+
+```{r}
+dfT1G_long <- reshape_political(dfT1G, "T1")
+dfT2G_long <- reshape_political(dfT2G, "T2")
+
+# Combine
+dfGPT <- bind_rows(dfT1G_long, dfT2G_long)
+```
+
+## Visualization: GPT‑5 political sensitivity
+
+```{r}
+p <- ggplot(dfGPT, aes(x = Candidate, y = prob, fill = Candidate)) +
+  geom_violin(trim = FALSE, alpha = 0.4) +
+  geom_boxplot(width = 0.15, outlier.shape = NA, alpha = 0.6) +
+  facet_wrap(~ State, ncol = 3) +
+  theme_minimal(base_size = 14) +
+  labs(
+    x = "Candidate",
+    y = "Probability",
+    title = "GPT-5: Distribution of Probabilities by State (T1 & T2)"
+  )
+
+print(p)
+
+ggsave(
+  filename = here("figures", "GPT5_violin_plot_T1_T2.png"),
+  plot = p,
+  width = 8,
+  height = 8,
+  dpi = 300
+)
+```
+
+## Paired t‑tests by state
+
+```{r}
+run_state_ttests <- function(df_long) {
+  df_long %>%
+    pivot_wider(
+      names_from = Candidate,
+      values_from = prob
+    ) %>%
+    group_by(State) %>%
+    summarise(
+      t_test = list(t.test(Trump, Biden, paired = TRUE)),
+      .groups = "drop"
+    ) %>%
+    mutate(
+      mean_diff = sapply(t_test, function(x) mean(x$estimate)),
+      t_value   = sapply(t_test, function(x) x$statistic),
+      df        = sapply(t_test, function(x) x$parameter),
+      p_value   = sapply(t_test, function(x) x$p.value),
+      conf_low  = sapply(t_test, function(x) x$conf.int[1]),
+      conf_high = sapply(t_test, function(x) x$conf.int[2])
+    ) %>%
+    select(State, mean_diff, t_value, df, p_value, conf_low, conf_high)
+}
+```
+
+```{r}
+results_T1G <- run_state_ttests(dfT1G_long)
+results_T2G <- run_state_ttests(dfT2G_long)
+
+results_T1G
+results_T2G
+```
+
+# Examining Personas Effects
+## Fit ANCOVA models
+
+```{r}
+run_ancova <- function(outcome) {
+  
+  # Main effects model
+  model_main <- aov(
+    reformulate(
+      c("group", "Gender", "edu_group", "age_num"),
+      response = outcome
+    ),
+    data = data
+  )
+  
+  # Interaction model (Gender × Education)
+  model_int <- aov(
+    reformulate(
+      c("group", "Gender * edu_group", "age_num"),
+      response = outcome
+    ),
+    data = data
+  )
+  
+  list(main = model_main, interaction = model_int)
+}
+```
+
+```{r}
+compare_models <- function(model_list) {
+  anova(model_list$main, model_list$interaction)
+}
+```
+
+### 1. Run ANCOVA for Conjunction Fallacy
+
+```{r}
+ancova_cf <- run_ancova("ave_CF_G")
+
+summary(ancova_cf$main)
+summary(ancova_cf$interaction)
+
+compare_models(ancova_cf)
+```
+
+### 2. Run ANCOVA for Disjunction Fallacy
+
+```{r}
+ancova_df <- run_ancova("ave_DF_G")
+
+summary(ancova_df$main)
+summary(ancova_df$interaction)
+
+compare_models(ancova_df)
+```
+
+# Future Election (2028)
+## Independent t‑test + effect size
+
+```{r}
+run_independent_ttest <- function(var20, var28, label) {
+  x20 <- data_F[[var20]]
+  x28 <- data_F[[var28]]
+  
+  test <- t.test(x20, x28, paired = FALSE)
+  effect <- cohen.d(x20, x28, paired = FALSE)
+  
+  tibble(
+    Measure = label,
+    Mean_2020 = mean(x20, na.rm = TRUE),
+    Mean_2028 = mean(x28, na.rm = TRUE),
+    Mean_Diff = mean(x28 - x20, na.rm = TRUE),
+    t_value = as.numeric(test$statistic),
+    df = as.numeric(test$parameter),
+    p_value = test$p.value,
+    cohen_d = effect$estimate
+  )
+}
+```
+
+```{r}
+# Define all variable pairs (2020 vs 2028)
+pairs_F <- list(
+  BinaryComp = c("binary_complementarity_G20", "binary_complementarity_G28"),
+  JointComp  = c("joint_complementarity_G20", "joint_complementarity_G28"),
+  CF   = c("ave_CF_G20", "ave_CF_G28"),
+  DCF  = c("ave_DCF_G20", "ave_DCF_G28"),
+  DF   = c("ave_DF_G20", "ave_DF_G28"),
+  DDF  = c("ave_DDF_G20", "ave_DDF_G28")
+)
+
+```
+
+```{r}
+results_F <- bind_rows(
+  lapply(names(pairs_F), function(label) {
+    run_independent_ttest(pairs_F[[label]][1], pairs_F[[label]][2], label)
+  })
+)
+
+results_F
+```
+
+## Correlation Test: CF vs DF
+
+```{r}
+cor_2028 <- cor.test(data_F$ave_CF_G28, data_F$ave_DF_G28, method = "pearson")
+cor_2028
+```
