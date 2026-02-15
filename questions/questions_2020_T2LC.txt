@@ -1,0 +1,135 @@
+# Block 1 (T2LC-269)  
+What is the likelihood that Trump will win Georgia?
+What is the likelihood that Trump will win Montana?
+What is the likelihood that Trump will win Nevada?
+What is the likelihood that Biden will win Georgia?
+What is the likelihood that Biden will win Montana?
+What is the likelihood that Biden will win Nevada?
+
+
+# Block 2-1
+Suppose Trump wins Georgia. How likely do you think it is that Trump will then win Montana?
+Suppose Biden wins Georgia. How likely do you think it is that Trump will then win Montana?
+Suppose Trump wins Georgia. How likely do you think it is that Biden will then win Montana?
+Suppose Biden wins Georgia. How likely do you think it is that Biden will then win Montana?
+
+
+# Block 2-2
+What is the likelihood that Trump will win Georgia and Trump will win Montana?
+What is the likelihood that Trump will win Georgia and Biden will win Montana?
+What is the likelihood that Biden will win Georgia and Trump will win Montana?
+What is the likelihood that Biden will win Georgia and Biden will win Montana?
+
+
+# Block 2-3
+What is the likelihood that Trump will win Georgia or Trump will win Montana?
+What is the likelihood that Trump will win Georgia or Biden will win Montana?
+What is the likelihood that Biden will win Georgia or Trump will win Montana?
+What is the likelihood that Biden will win Georgia or Biden will win Montana?
+
+
+# Block 3-1
+Suppose Trump wins Montana. How likely do you think it is that Trump will then win Nevada?
+Suppose Biden wins Montana. How likely do you think it is that Trump will then win Nevada?
+Suppose Trump wins Montana. How likely do you think it is that Biden will then win Nevada?
+Suppose Biden wins Montana. How likely do you think it is that Biden will then win Nevada?
+
+
+# Block 3-2
+What is the likelihood that Trump will win Montana and Trump will win Nevada?
+What is the likelihood that Trump will win Montana and Biden will win Nevada?
+What is the likelihood that Biden will win Montana and Trump will win Nevada?
+What is the likelihood that Biden will win Montana and Biden will win Nevada?
+
+
+# Block 3-3
+What is the likelihood that Trump will win Montana or Trump will win Nevada?
+What is the likelihood that Trump will win Montana or Biden will win Nevada?
+What is the likelihood that Biden will win Montana or Trump will win Nevada?
+What is the likelihood that Biden will win Montana or Biden will win Nevada?
+
+
+# Block 4-1
+Suppose Trump wins Nevada. How likely do you think it is that Trump will then win Georgia?
+Suppose Biden wins Nevada. How likely do you think it is that Trump will then win Georgia?
+Suppose Trump wins Nevada. How likely do you think it is that Biden will then win Georgia?
+Suppose Biden wins Nevada. How likely do you think it is that Biden will then win Georgia?
+
+
+# Block 4-2
+What is the likelihood that Trump will win Nevada and Trump will win Georgia?
+What is the likelihood that Trump will win Nevada and Biden will win Georgia?
+What is the likelihood that Biden will win Nevada and Trump will win Georgia?
+What is the likelihood that Biden will win Nevada and Biden will win Georgia?
+
+
+# Block 4-3
+What is the likelihood that Trump will win Nevada or Trump will win Georgia?
+What is the likelihood that Trump will win Nevada or Biden will win Georgia?
+What is the likelihood that Biden will win Nevada or Trump will win Georgia?
+What is the likelihood that Biden will win Nevada or Biden will win Georgia?
+
+
+# Block 5-1
+Suppose Trump wins Montana. How likely do you think it is that Trump will then win Georgia?
+Suppose Trump wins Montana. How likely do you think it is that Biden will then win Georgia?
+Suppose Biden wins Montana. How likely do you think it is that Trump will then win Georgia?
+Suppose Biden wins Montana. How likely do you think it is that Biden will then win Georgia?
+
+
+# Block 5-2
+What is the likelihood that Trump will win Montana and Trump will win Georgia?
+What is the likelihood that Biden will win Montana and Trump will win Georgia?
+What is the likelihood that Trump will win Montana and Biden will win Georgia?
+What is the likelihood that Biden will win Montana and Biden will win Georgia?
+
+
+# Block 5-3
+What is the likelihood that Trump will win Montana or Trump will win Georgia?
+What is the likelihood that Biden will win Montana or Trump will win Georgia?
+What is the likelihood that Trump will win Montana or Biden will win Georgia?
+What is the likelihood that Biden will win Montana or Biden will win Georgia?
+
+
+# Block 6-1
+Suppose Trump wins Nevada. How likely do you think it is that Trump will then win Montana?
+Suppose Trump wins Nevada. How likely do you think it is that Biden will then win Montana?
+Suppose Biden wins Nevada. How likely do you think it is that Trump will then win Montana?
+Suppose Biden wins Nevada. How likely do you think it is that Biden will then win Montana?
+
+
+# Block 6-2
+What is the likelihood that Trump will win Nevada and Trump will win Montana?
+What is the likelihood that Biden will win Nevada and Trump will win Montana?
+What is the likelihood that Trump will win Nevada and Biden will win Montana?
+What is the likelihood that Biden will win Nevada and Biden will win Montana?
+
+
+# Block 6-3
+What is the likelihood that Trump will win Nevada or Trump will win Montana?
+What is the likelihood that Biden will win Nevada or Trump will win Montana?
+What is the likelihood that Trump will win Nevada or Biden will win Montana?
+What is the likelihood that Biden will win Nevada or Biden will win Montana?
+
+
+# Block 7-1
+Suppose Trump wins Georgia. How likely do you think it is that Trump will then win Nevada?
+Suppose Trump wins Georgia. How likely do you think it is that Biden will then win Nevada?
+Suppose Biden wins Georgia. How likely do you think it is that Trump will then win Nevada?
+Suppose Biden wins Georgia. How likely do you think it is that Biden will then win Nevada?
+
+
+# Block 7-2
+What is the likelihood that Trump will win Georgia and Trump will win Nevada?
+What is the likelihood that Biden will win Georgia and Trump will win Nevada?
+What is the likelihood that Trump will win Georgia and Biden will win Nevada?
+What is the likelihood that Biden will win Georgia and Biden will win Nevada?
+
+
+# Block 7-3
+What is the likelihood that Trump will win Georgia or Trump will win Nevada?
+What is the likelihood that Biden will win Georgia or Trump will win Nevada?
+What is the likelihood that Trump will win Georgia or Biden will win Nevada?
+What is the likelihood that Biden will win Georgia or Biden will win Nevada?
+
+

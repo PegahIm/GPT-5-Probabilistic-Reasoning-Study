@@ -1,0 +1,135 @@
+# Block 1 (T1LC-284)
+What is the likelihood that Trump will win Ohio?
+What is the likelihood that Trump will win Missouri?
+What is the likelihood that Trump will win Michigan?
+What is the likelihood that Biden will win Ohio?
+What is the likelihood that Biden will win Missouri?
+What is the likelihood that Biden will win Michigan?
+
+
+# Block 2-1
+Suppose Trump wins Ohio. How likely do you think it is that Trump will then win Michigan?
+Suppose Trump wins Ohio. How likely do you think it is that Biden will then win Michigan?
+Suppose Biden wins Ohio. How likely do you think it is that Trump will then win Michigan?
+Suppose Biden wins Ohio. How likely do you think it is that Biden will then win Michigan?
+
+
+# Block 2-2
+What is the likelihood that Trump will win Ohio and Trump will win Michigan?
+What is the likelihood that Trump will win Ohio and Biden will win Michigan?
+What is the likelihood that Biden will win Ohio and Trump will win Michigan?
+What is the likelihood that Biden will win Ohio and Biden will win Michigan?
+
+
+# Block 2-3
+What is the likelihood that Trump will win Ohio or Trump will win Michigan?
+What is the likelihood that Trump will win Ohio or Biden will win Michigan?
+What is the likelihood that Biden will win Ohio or Trump will win Michigan?
+What is the likelihood that Biden will win Ohio or Biden will win Michigan?
+
+
+# Block 3-1
+Suppose Trump wins Michigan. How likely do you think it is that Trump will then win Missouri?
+Suppose Trump wins Michigan. How likely do you think it is that Biden will then win Missouri?
+Suppose Biden wins Michigan. How likely do you think it is that Trump will then win Missouri?
+Suppose Biden wins Michigan. How likely do you think it is that Biden will then win Missouri?
+
+
+# Block 3-2
+What is the likelihood that Trump will win Michigan and Trump will win Missouri?
+What is the likelihood that Trump will win Michigan and Biden will win Missouri?
+What is the likelihood that Biden will win Michigan and Trump will win Missouri?
+What is the likelihood that Biden will win Michigan and Biden will win Missouri?
+
+
+# Block 3-3
+What is the likelihood that Trump will win Michigan or Trump will win Missouri?
+What is the likelihood that Trump will win Michigan or Biden will win Missouri?
+What is the likelihood that Biden will win Michigan or Trump will win Missouri?
+What is the likelihood that Biden will win Michigan or Biden will win Missouri?
+
+
+# Block 4-1
+Suppose Trump wins Missouri. How likely do you think it is that Trump will then win Ohio?
+Suppose Trump wins Missouri. How likely do you think it is that Biden will then win Ohio?
+Suppose Biden wins Missouri. How likely do you think it is that Trump will then win Ohio?
+Suppose Biden wins Missouri. How likely do you think it is that Biden will then win Ohio?
+
+
+# Block 4-2
+What is the likelihood that Trump will win Missouri and Trump will win Ohio?
+What is the likelihood that Trump will win Missouri and Biden will win Ohio?
+What is the likelihood that Biden will win Missouri and Trump will win Ohio?
+What is the likelihood that Biden will win Missouri and Biden will win Ohio?
+
+
+# Block 4-3
+What is the likelihood that Trump will win Missouri or Trump will win Ohio?
+What is the likelihood that Trump will win Missouri or Biden will win Ohio?
+What is the likelihood that Biden will win Missouri or Trump will win Ohio?
+What is the likelihood that Biden will win Missouri or Biden will win Ohio?
+
+
+# Block 5-1
+Suppose Trump wins Michigan. How likely do you think it is that Trump will then win Ohio?
+Suppose Trump wins Michigan. How likely do you think it is that Biden will then win Ohio?
+Suppose Biden wins Michigan. How likely do you think it is that Trump will then win Ohio?
+Suppose Biden wins Michigan. How likely do you think it is that Biden will then win Ohio?
+
+
+# Block 5-2
+What is the likelihood that Trump will win Michigan and Trump will win Ohio?
+What is the likelihood that Trump will win Michigan and Biden will win Ohio?
+What is the likelihood that Biden will win Michigan and Trump will win Ohio?
+What is the likelihood that Biden will win Michigan and Biden will win Ohio?
+
+
+# Block 5-3
+What is the likelihood that Trump will win Michigan or Trump will win Ohio?
+What is the likelihood that Trump will win Michigan or Biden will win Ohio?
+What is the likelihood that Biden will win Michigan or Trump will win Ohio?
+What is the likelihood that Biden will win Michigan or Biden will win Ohio?
+
+
+# Block 6-1
+Suppose Trump wins Missouri. How likely do you think it is that Trump will then win Michigan?
+Suppose Trump wins Missouri. How likely do you think it is that Biden will then win Michigan?
+Suppose Biden wins Missouri. How likely do you think it is that Trump will then win Michigan?
+Suppose Biden wins Missouri. How likely do you think it is that Biden will then win Michigan?
+
+
+# Block 6-2
+What is the likelihood that Trump will win Missouri and Trump will win Michigan?
+What is the likelihood that Trump will win Missouri and Biden will win Michigan?
+What is the likelihood that Biden will win Missouri and Trump will win Michigan?
+What is the likelihood that Biden will win Missouri and Biden will win Michigan?
+
+
+# Block 6-3
+What is the likelihood that Trump will win Missouri or Trump will win Michigan?
+What is the likelihood that Trump will win Missouri or Biden will win Michigan?
+What is the likelihood that Biden will win Missouri or Trump will win Michigan?
+What is the likelihood that Biden will win Missouri or Biden will win Michigan?
+
+
+# Block 7-1
+Suppose Trump wins Ohio. How likely do you think it is that Trump will then win Missouri?
+Suppose Trump wins Ohio. How likely do you think it is that Biden will then win Missouri?
+Suppose Biden wins Ohio. How likely do you think it is that Trump will then win Missouri?
+Suppose Biden wins Ohio. How likely do you think it is that Biden will then win Missouri?
+
+
+# Block 7-2
+What is the likelihood that Trump will win Ohio and Trump will win Missouri?
+What is the likelihood that Trump will win Ohio and Biden will win Missouri?
+What is the likelihood that Biden will win Ohio and Trump will win Missouri?
+What is the likelihood that Biden will win Ohio and Biden will win Missouri?
+
+
+# Block 7-3
+What is the likelihood that Trump will win Ohio or Trump will win Missouri?
+What is the likelihood that Trump will win Ohio or Biden will win Missouri?
+What is the likelihood that Biden will win Ohio or Trump will win Missouri?
+What is the likelihood that Biden will win Ohio or Biden will win Missouri?
+
+

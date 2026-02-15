@@ -1,0 +1,135 @@
+# Block 1 (T2LC-50)  
+What is the likelihood that the Republican candidate will win Georgia?
+What is the likelihood that the Republican candidate will win Montana?
+What is the likelihood that the Republican candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Nevada?
+
+
+# Block 2-1
+Suppose the Republican candidate wins Georgia. How likely do you think it is that the Republican candidate will then win Montana?
+Suppose the Democratic candidate wins Georgia. How likely do you think it is that the Republican candidate will then win Montana?
+Suppose the Republican candidate wins Georgia. How likely do you think it is that the Democratic candidate will then win Montana?
+Suppose the Democratic candidate wins Georgia. How likely do you think it is that the Democratic candidate will then win Montana?
+
+
+# Block 2-2
+What is the likelihood that the Republican candidate will win Georgia and the Republican candidate will win Montana?
+What is the likelihood that the Republican candidate will win Georgia and the Democratic candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Georgia and the Republican candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Georgia and the Democratic candidate will win Montana?
+
+
+# Block 2-3
+What is the likelihood that the Republican candidate will win Georgia or the Republican candidate will win Montana?
+What is the likelihood that the Republican candidate will win Georgia or the Democratic candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Georgia or the Republican candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Georgia or the Democratic candidate will win Montana?
+
+
+# Block 3-1
+Suppose the Republican candidate wins Montana. How likely do you think it is that the Republican candidate will then win Nevada?
+Suppose the Democratic candidate wins Montana. How likely do you think it is that the Republican candidate will then win Nevada?
+Suppose the Republican candidate wins Montana. How likely do you think it is that the Democratic candidate will then win Nevada?
+Suppose the Democratic candidate wins Montana. How likely do you think it is that the Democratic candidate will then win Nevada?
+
+
+# Block 3-2
+What is the likelihood that the Republican candidate will win Montana and the Republican candidate will win Nevada?
+What is the likelihood that the Republican candidate will win Montana and the Democratic candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Montana and the Republican candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Montana and the Democratic candidate will win Nevada?
+
+
+# Block 3-3
+What is the likelihood that the Republican candidate will win Montana or the Republican candidate will win Nevada?
+What is the likelihood that the Republican candidate will win Montana or the Democratic candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Montana or the Republican candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Montana or the Democratic candidate will win Nevada?
+
+
+# Block 4-1
+Suppose the Republican candidate wins Nevada. How likely do you think it is that the Republican candidate will then win Georgia?
+Suppose the Democratic candidate wins Nevada. How likely do you think it is that the Republican candidate will then win Georgia?
+Suppose the Republican candidate wins Nevada. How likely do you think it is that the Democratic candidate will then win Georgia?
+Suppose the Democratic candidate wins Nevada. How likely do you think it is that the Democratic candidate will then win Georgia?
+
+
+# Block 4-2
+What is the likelihood that the Republican candidate will win Nevada and the Republican candidate will win Georgia?
+What is the likelihood that the Republican candidate will win Nevada and the Democratic candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Nevada and the Republican candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Nevada and the Democratic candidate will win Georgia?
+
+
+# Block 4-3
+What is the likelihood that the Republican candidate will win Nevada or the Republican candidate will win Georgia?
+What is the likelihood that the Republican candidate will win Nevada or the Democratic candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Nevada or the Republican candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Nevada or the Democratic candidate will win Georgia?
+
+
+# Block 5-1
+Suppose the Republican candidate wins Montana. How likely do you think it is that the Republican candidate will then win Georgia?
+Suppose the Republican candidate wins Montana. How likely do you think it is that the Democratic candidate will then win Georgia?
+Suppose the Democratic candidate wins Montana. How likely do you think it is that the Republican candidate will then win Georgia?
+Suppose the Democratic candidate wins Montana. How likely do you think it is that the Democratic candidate will then win Georgia?
+
+
+# Block 5-2
+What is the likelihood that the Republican candidate will win Montana and the Republican candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Montana and the Republican candidate will win Georgia?
+What is the likelihood that the Republican candidate will win Montana and the Democratic candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Montana and the Democratic candidate will win Georgia?
+
+
+# Block 5-3
+What is the likelihood that the Republican candidate will win Montana or the Republican candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Montana or the Republican candidate will win Georgia?
+What is the likelihood that the Republican candidate will win Montana or the Democratic candidate will win Georgia?
+What is the likelihood that the Democratic candidate will win Montana or the Democratic candidate will win Georgia?
+
+
+# Block 6-1
+Suppose the Republican candidate wins Nevada. How likely do you think it is that the Republican candidate will then win Montana?
+Suppose the Republican candidate wins Nevada. How likely do you think it is that the Democratic candidate will then win Montana?
+Suppose the Democratic candidate wins Nevada. How likely do you think it is that the Republican candidate will then win Montana?
+Suppose the Democratic candidate wins Nevada. How likely do you think it is that the Democratic candidate will then win Montana?
+
+
+# Block 6-2
+What is the likelihood that the Republican candidate will win Nevada and the Republican candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Nevada and the Republican candidate will win Montana?
+What is the likelihood that the Republican candidate will win Nevada and the Democratic candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Nevada and the Democratic candidate will win Montana?
+
+
+# Block 6-3
+What is the likelihood that the Republican candidate will win Nevada or the Republican candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Nevada or the Republican candidate will win Montana?
+What is the likelihood that the Republican candidate will win Nevada or the Democratic candidate will win Montana?
+What is the likelihood that the Democratic candidate will win Nevada or the Democratic candidate will win Montana?
+
+
+# Block 7-1
+Suppose the Republican candidate wins Georgia. How likely do you think it is that the Republican candidate will then win Nevada?
+Suppose the Republican candidate wins Georgia. How likely do you think it is that the Democratic candidate will then win Nevada?
+Suppose the Democratic candidate wins Georgia. How likely do you think it is that the Republican candidate will then win Nevada?
+Suppose the Democratic candidate wins Georgia. How likely do you think it is that the Democratic candidate will then win Nevada?
+
+
+# Block 7-2
+What is the likelihood that the Republican candidate will win Georgia and the Republican candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Georgia and the Republican candidate will win Nevada?
+What is the likelihood that the Republican candidate will win Georgia and the Democratic candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Georgia and the Democratic candidate will win Nevada?
+
+
+# Block 7-3
+What is the likelihood that the Republican candidate will win Georgia or the Republican candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Georgia or the Republican candidate will win Nevada?
+What is the likelihood that the Republican candidate will win Georgia or the Democratic candidate will win Nevada?
+What is the likelihood that the Democratic candidate will win Georgia or the Democratic candidate will win Nevada?
+
+

@@ -1,0 +1,135 @@
+# Block 1 (T1LC-50)
+What is the likelihood that the Republican candidate will win Ohio?
+What is the likelihood that the Republican candidate will win Missouri?
+What is the likelihood that the Republican candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Michigan?
+
+
+# Block 2-1
+Suppose the Republican candidate wins Ohio. How likely do you think it is that the Republican candidate will then win Michigan?
+Suppose the Republican candidate wins Ohio. How likely do you think it is that the Democratic candidate will then win Michigan?
+Suppose the Democratic candidate wins Ohio. How likely do you think it is that the Republican candidate will then win Michigan?
+Suppose the Democratic candidate wins Ohio. How likely do you think it is that the Democratic candidate will then win Michigan?
+
+
+# Block 2-2
+What is the likelihood that the Republican candidate will win Ohio and the Republican candidate will win Michigan?
+What is the likelihood that the Republican candidate will win Ohio and the Democratic candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Ohio and the Republican candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Ohio and the Democratic candidate will win Michigan?
+
+
+# Block 2-3
+What is the likelihood that the Republican candidate will win Ohio or the Republican candidate will win Michigan?
+What is the likelihood that the Republican candidate will win Ohio or the Democratic candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Ohio or the Republican candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Ohio or the Democratic candidate will win Michigan?
+
+
+# Block 3-1
+Suppose the Republican candidate wins Michigan. How likely do you think it is that the Republican candidate will then win Missouri?
+Suppose the Republican candidate wins Michigan. How likely do you think it is that the Democratic candidate will then win Missouri?
+Suppose the Democratic candidate wins Michigan. How likely do you think it is that the Republican candidate will then win Missouri?
+Suppose the Democratic candidate wins Michigan. How likely do you think it is that the Democratic candidate will then win Missouri?
+
+
+# Block 3-2
+What is the likelihood that the Republican candidate will win Michigan and the Republican candidate will win Missouri?
+What is the likelihood that the Republican candidate will win Michigan and the Democratic candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Michigan and the Republican candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Michigan and the Democratic candidate will win Missouri?
+
+
+# Block 3-3
+What is the likelihood that the Republican candidate will win Michigan or the Republican candidate will win Missouri?
+What is the likelihood that the Republican candidate will win Michigan or the Democratic candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Michigan or the Republican candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Michigan or the Democratic candidate will win Missouri?
+
+
+# Block 4-1
+Suppose the Republican candidate wins Missouri. How likely do you think it is that the Republican candidate will then win Ohio?
+Suppose the Republican candidate wins Missouri. How likely do you think it is that the Democratic candidate will then win Ohio?
+Suppose the Democratic candidate wins Missouri. How likely do you think it is that the Republican candidate will then win Ohio?
+Suppose the Democratic candidate wins Missouri. How likely do you think it is that the Democratic candidate will then win Ohio?
+
+
+# Block 4-2
+What is the likelihood that the Republican candidate will win Missouri and the Republican candidate will win Ohio?
+What is the likelihood that the Republican candidate will win Missouri and the Democratic candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Missouri and the Republican candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Missouri and the Democratic candidate will win Ohio?
+
+
+# Block 4-3
+What is the likelihood that the Republican candidate will win Missouri or the Republican candidate will win Ohio?
+What is the likelihood that the Republican candidate will win Missouri or the Democratic candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Missouri or the Republican candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Missouri or the Democratic candidate will win Ohio?
+
+
+# Block 5-1
+Suppose the Republican candidate wins Michigan. How likely do you think it is that the Republican candidate will then win Ohio?
+Suppose the Republican candidate wins Michigan. How likely do you think it is that the Democratic candidate will then win Ohio?
+Suppose the Democratic candidate wins Michigan. How likely do you think it is that the Republican candidate will then win Ohio?
+Suppose the Democratic candidate wins Michigan. How likely do you think it is that the Democratic candidate will then win Ohio?
+
+
+# Block 5-2
+What is the likelihood that the Republican candidate will win Michigan and the Republican candidate will win Ohio?
+What is the likelihood that the Republican candidate will win Michigan and the Democratic candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Michigan and the Republican candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Michigan and the Democratic candidate will win Ohio?
+
+
+# Block 5-3
+What is the likelihood that the Republican candidate will win Michigan or the Republican candidate will win Ohio?
+What is the likelihood that the Republican candidate will win Michigan or the Democratic candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Michigan or the Republican candidate will win Ohio?
+What is the likelihood that the Democratic candidate will win Michigan or the Democratic candidate will win Ohio?
+
+
+# Block 6-1
+Suppose the Republican candidate wins Missouri. How likely do you think it is that the Republican candidate will then win Michigan?
+Suppose the Republican candidate wins Missouri. How likely do you think it is that the Democratic candidate will then win Michigan?
+Suppose the Democratic candidate wins Missouri. How likely do you think it is that the Republican candidate will then win Michigan?
+Suppose the Democratic candidate wins Missouri. How likely do you think it is that the Democratic candidate will then win Michigan?
+
+
+# Block 6-2
+What is the likelihood that the Republican candidate will win Missouri and the Republican candidate will win Michigan?
+What is the likelihood that the Republican candidate will win Missouri and the Democratic candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Missouri and the Republican candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Missouri and the Democratic candidate will win Michigan?
+
+
+# Block 6-3
+What is the likelihood that the Republican candidate will win Missouri or the Republican candidate will win Michigan?
+What is the likelihood that the Republican candidate will win Missouri or the Democratic candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Missouri or the Republican candidate will win Michigan?
+What is the likelihood that the Democratic candidate will win Missouri or the Democratic candidate will win Michigan?
+
+
+# Block 7-1
+Suppose the Republican candidate wins Ohio. How likely do you think it is that the Republican candidate will then win Missouri?
+Suppose the Republican candidate wins Ohio. How likely do you think it is that the Democratic candidate will then win Missouri?
+Suppose the Democratic candidate wins Ohio. How likely do you think it is that the Republican candidate will then win Missouri?
+Suppose the Democratic candidate wins Ohio. How likely do you think it is that the Democratic candidate will then win Missouri?
+
+
+# Block 7-2
+What is the likelihood that the Republican candidate will win Ohio and the Republican candidate will win Missouri?
+What is the likelihood that the Republican candidate will win Ohio and the Democratic candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Ohio and the Republican candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Ohio and the Democratic candidate will win Missouri?
+
+
+# Block 7-3
+What is the likelihood that the Republican candidate will win Ohio or the Republican candidate will win Missouri?
+What is the likelihood that the Republican candidate will win Ohio or the Democratic candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Ohio or the Republican candidate will win Missouri?
+What is the likelihood that the Democratic candidate will win Ohio or the Democratic candidate will win Missouri?
+
+
