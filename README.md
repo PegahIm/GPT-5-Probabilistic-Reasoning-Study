@@ -19,8 +19,7 @@ GPT-5-Probabilistic-Reasoning/
 │
 ├── data/                     
 │   Processed datasets used in the R analysis.
-│   Includes GPT-5 outputs and human data from Huang et al. (2025),
-│   used here with proper citation.
+│   Includes GPT-5 outputs and human data from Huang et al. (2025).
 │
 ├── data_gpt_raw/             
 │   Raw GPT-5 output files (CSV).
