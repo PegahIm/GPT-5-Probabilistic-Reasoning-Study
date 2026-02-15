@@ -1,0 +1,50 @@
+P51, 45-54, female, sophomore (2 years of college), California  
+P52, 35-44, male, senior (4 years of college), Michigan  
+P53, 45-54, male, senior (4 years of college), Utah  
+P54, 25-34, male, senior (4 years of college), California  
+P55, 45-54, male, high school, Idaho  
+P56, 25-34, male, high school, Michigan  
+P57, 25-34, female, sophomore (2 years of college), North Carolina  
+P58, 25-34, female, senior (4 years of college), Missouri  
+P59, 25-34, male, senior (4 years of college), Hawaii  
+P60, 25-34, male, sophomore (2 years of college), New Jersey  
+P61, 45-54, male, masters, California  
+P62, 25-34, male, doctorate, California  
+P63, 35-44, female, high school, Washington  
+P64, 45-54, female, senior (4 years of college), Minnesota  
+P65, 45-54, male, senior (4 years of college), California  
+P66, 35-44, male, senior (4 years of college), California  
+P67, 16-24, male, masters, South Carolina  
+P68, 25-34, female, high school, Wisconsin  
+P69, 45-54, male, sophomore (2 years of college), Connecticut  
+P70, 55-64, male, senior (4 years of college), Maryland  
+P71, 45-54, female, masters, Texas  
+P72, 35-44, male, masters, California  
+P73, 55-64, male, high school, Michigan  
+P74, 55-64, female, junior (3 years of college), Missouri  
+P75, 55-64, male, sophomore (2 years of college), California  
+P76, 45-54, female, senior (4 years of college), Ohio  
+P77, 45-54, male, senior (4 years of college), Minnesota  
+P78, 55-64, male, senior (4 years of college), California  
+P79, 35-44, male, senior (4 years of college), Mississippi  
+P80, 65-74, male, sophomore (2 years of college), Texas  
+P81, 55-64, female, senior (4 years of college), Pennsylvania  
+P82, 45-54, female, masters, California  
+P83, 25-34, male, masters, California  
+P84, 25-34, male, senior (4 years of college), Minnesota  
+P85, 55-64, male, senior (4 years of college), Ohio  
+P86, 25-34, male, senior (4 years of college), Virginia  
+P87, 25-34, male, senior (4 years of college), Ohio  
+P88, 25-34, female, masters, Oregon  
+P89, 45-54, male, masters, Florida  
+P90, 25-34, male, sophomore (2 years of college), Georgia  
+P91, 35-44, male, masters, Iowa  
+P92, 25-34, female, high school, West Virginia  
+P93, 35-44, male, sophomore (2 years of college), Massachusetts  
+P94, 35-44, female, other professional, Texas  
+P95, 35-44, female, senior (4 years of college), Missouri  
+P96, 25-34, male, senior (4 years of college), Tennessee  
+P97, 45-54, male, high school, Georgia  
+P98, 35-44, male, senior (4 years of college), California  
+P99, 25-34, male, senior (4 years of college), California  
+P100, 35-44, female, senior (4 years of college), Pennsylvania  

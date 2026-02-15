@@ -1,0 +1,269 @@
+P285, 45-54, female, sophomore (2 years of college), California  
+P286, 35-44, male, senior (4 years of college), Michigan  
+P287, 45-54, male, senior (4 years of college), Utah  
+P288, 25-34, male, senior (4 years of college), California  
+P289, 45-54, male, high school, Idaho  
+P290, 25-34, male, high school, Michigan  
+P291, 25-34, female, sophomore (2 years of college), North Carolina  
+P292, 25-34, female, senior (4 years of college), Missouri  
+P293, 25-34, male, senior (4 years of college), Hawaii  
+P294, 25-34, male, sophomore (2 years of college), New Jersey  
+P295, 45-54, male, masters, California  
+P296, 25-34, male, doctorate, California  
+P297, 35-44, female, high school, Washington  
+P298, 45-54, female, senior (4 years of college), Minnesota  
+P299, 45-54, male, senior (4 years of college), California  
+P300, 35-44, male, senior (4 years of college), California  
+P301, 16-24, male, masters, South Carolina  
+P302, 25-34, female, high school, Wisconsin  
+P303, 45-54, male, sophomore (2 years of college), Connecticut  
+P304, 55-64, male, senior (4 years of college), Maryland  
+P305, 45-54, female, masters, Texas  
+P306, 35-44, male, masters, California  
+P307, 55-64, male, high school, Michigan  
+P308, 55-64, female, junior (3 years of college), Missouri  
+P309, 55-64, male, sophomore (2 years of college), California  
+P310, 45-54, female, senior (4 years of college), Ohio  
+P311, 45-54, male, senior (4 years of college), Minnesota  
+P312, 55-64, male, senior (4 years of college), California  
+P313, 35-44, male, senior (4 years of college), Mississippi  
+P314, 65-74, male, sophomore (2 years of college), Texas  
+P315, 55-64, female, senior (4 years of college), Pennsylvania  
+P316, 45-54, female, masters, California  
+P317, 25-34, male, masters, California  
+P318, 25-34, male, senior (4 years of college), Minnesota  
+P319, 55-64, male, senior (4 years of college), Ohio  
+P320, 25-34, male, senior (4 years of college), Virginia  
+P321, 25-34, male, senior (4 years of college), Ohio  
+P322, 25-34, female, masters, Oregon  
+P323, 45-54, male, masters, Florida  
+P324, 25-34, male, sophomore (2 years of college), Georgia  
+P325, 35-44, male, masters, Iowa  
+P326, 25-34, female, high school, West Virginia  
+P327, 35-44, male, sophomore (2 years of college), Massachusetts  
+P328, 35-44, female, other professional, Texas  
+P329, 35-44, female, senior (4 years of college), Missouri  
+P330, 25-34, male, senior (4 years of college), Tennessee  
+P331, 45-54, male, high school, Georgia  
+P332, 35-44, male, senior (4 years of college), California  
+P333, 25-34, male, senior (4 years of college), California  
+P334, 35-44, female, senior (4 years of college), Pennsylvania  
+P335, 45-54, female, other professional, Arizona  
+P336, 35-44, male, senior (4 years of college), Florida  
+P337, 16-24, male, senior (4 years of college), California  
+P338, 25-34, female, senior (4 years of college), Alabama  
+P339, 25-34, male, senior (4 years of college), Illinois  
+P340, 75-84, female, masters, Illinois  
+P341, 25-34, male, high school, Texas  
+P342, 45-54, male, senior (4 years of college), Ohio  
+P343, 55-64, male, masters, Louisiana  
+P344, 25-34, female, freshman (1 year of college), Massachusetts  
+P345, 25-34, male, masters, Washington  
+P346, 45-54, male, senior (4 years of college), Colorado  
+P347, 55-64, female, senior (4 years of college), Colorado  
+P348, 35-44, male, masters, New Jersey  
+P349, 45-54, female, high school, Tennessee  
+P350, 25-34, male, sophomore (2 years of college), New Jersey  
+P351, 35-44, male, freshman (1 year of college), Illinois  
+P352, 25-34, male, senior (4 years of college), Arkansas  
+P353, 35-44, male, high school, Rhode Island  
+P354, 35-44, male, senior (4 years of college), Florida  
+P355, 45-54, female, freshman (1 year of college), Texas  
+P356, 45-54, female, sophomore (2 years of college), Illinois  
+P357, 25-34, male, sophomore (2 years of college), California  
+P358, 55-64, female, masters, South Carolina  
+P359, 16-24, male, senior (4 years of college), Maryland  
+P360, 55-64, female, junior (3 years of college), California  
+P361, 55-64, female, masters, Colorado  
+P362, 45-54, male, senior (4 years of college), California  
+P363, 25-34, female, masters, Florida  
+P364, 35-44, female, senior (4 years of college), Texas  
+P365, 35-44, female, senior (4 years of college), Texas  
+P366, 25-34, female, masters, Texas  
+P367, 25-34, female, senior (4 years of college), Massachusetts  
+P368, 25-34, male, senior (4 years of college), Tennessee  
+P369, 25-34, male, masters, California  
+P370, 45-54, female, senior (4 years of college), Georgia  
+P371, 25-34, female, high school, Michigan  
+P372, 25-34, male, junior (3 years of college), California  
+P373, 25-34, male, masters, Minnesota  
+P374, 45-54, male, masters, Wisconsin  
+P375, 55-64, female, masters, Utah  
+P376, 25-34, male, masters, Colorado  
+P377, 25-34, male, junior (3 years of college), California  
+P378, 25-34, male, junior (3 years of college), Florida  
+P379, 35-44, male, senior (4 years of college), California  
+P380, 55-64, female, masters, Ohio  
+P381, 45-54, female, masters, Georgia  
+P382, 35-44, male, senior (4 years of college), North Carolina  
+P383, 35-44, male, senior (4 years of college), Alabama  
+P384, 16-24, female, senior (4 years of college), Colorado  
+P385, 25-34, male, senior (4 years of college), Washington  
+P386, 35-44, female, senior (4 years of college), Missouri  
+P387, 45-54, male, senior (4 years of college), California  
+P388, 35-44, male, senior (4 years of college), New York  
+P389, 25-34, female, senior (4 years of college), New Jersey  
+P390, 25-34, male, senior (4 years of college), Utah  
+P391, 45-54, female, high school, California  
+P392, 25-34, male, senior (4 years of college), Maryland  
+P393, 25-34, male, senior (4 years of college), Missouri  
+P394, 25-34, female, senior (4 years of college), Washington  
+P395, 35-44, male, senior (4 years of college), Washington  
+P396, 25-34, female, senior (4 years of college), Massachusetts  
+P397, 35-44, male, senior (4 years of college), North Carolina  
+P398, 25-34, male, senior (4 years of college), California  
+P399, 45-54, female, high school, California  
+P400, 55-64, female, senior (4 years of college), Florida  
+P401, 25-34, female, senior (4 years of college), New York  
+P402, 25-34, male, high school, Idaho  
+P403, 35-44, male, senior (4 years of college), Maryland  
+P404, 55-64, female, masters, Ohio  
+P405, 55-64, male, high school, Wisconsin  
+P406, 25-34, female, junior (3 years of college), Georgia  
+P407, 25-34, male, senior (4 years of college), Texas  
+P408, 55-64, female, senior (4 years of college), District of Columbia  
+P409, 45-54, female, senior (4 years of college), Tennessee  
+P410, 25-34, male, sophomore (2 years of college), Ohio  
+P411, 35-44, male, senior (4 years of college), Colorado  
+P412, 55-64, female, senior (4 years of college), California  
+P413, 35-44, female, senior (4 years of college), Texas  
+P414, 25-34, male, senior (4 years of college), Illinois  
+P415, 75-84, female, sophomore (2 years of college), Missouri  
+P416, 25-34, female, senior (4 years of college), Maryland  
+P417, 16-24, female, senior (4 years of college), Colorado  
+P418, 35-44, male, senior (4 years of college), New Mexico  
+P419, 25-34, male, senior (4 years of college), Wisconsin  
+P420, 45-54, male, senior (4 years of college), California  
+P421, 35-44, male, senior (4 years of college), Texas  
+P422, 25-34, male, senior (4 years of college), California  
+P423, 25-34, male, masters, Tennessee  
+P424, 45-54, female, senior (4 years of college), Illinois  
+P425, 25-34, male, senior (4 years of college), Washington  
+P426, 65-74, male, senior (4 years of college), California  
+P427, 25-34, male, senior (4 years of college), Arizona  
+P428, 45-54, male, senior (4 years of college), California  
+P429, 45-54, female, senior (4 years of college), California  
+P430, 45-54, male, high school, Texas  
+P431, 25-34, female, masters, Florida  
+P432, 65-74, female, masters, Texas  
+P433, 35-44, male, freshman (1 year of college), Arkansas  
+P434, 45-54, female, senior (4 years of college), California  
+P435, 16-24, male, senior (4 years of college), Louisiana  
+P436, 35-44, male, senior (4 years of college), North Carolina  
+P437, 25-34, female, senior (4 years of college), California  
+P438, 55-64, female, senior (4 years of college), Arkansas  
+P439, 55-64, male, masters, California  
+P440, 45-54, female, senior (4 years of college), New York  
+P441, 65-74, male, senior (4 years of college), California  
+P442, 25-34, male, senior (4 years of college), South Carolina  
+P443, 25-34, male, masters, New Jersey  
+P444, 45-54, male, senior (4 years of college), California  
+P445, 55-64, male, high school, California  
+P446, 25-34, male, senior (4 years of college), California  
+P447, 35-44, female, senior (4 years of college), Iowa  
+P448, 45-54, male, masters, California  
+P449, 45-54, male, senior (4 years of college), Texas  
+P450, 35-44, male, masters, Pennsylvania  
+P451, 35-44, male, masters, New York  
+P452, 25-34, male, senior (4 years of college), Arizona  
+P453, 25-34, male, sophomore (2 years of college), North Carolina  
+P454, 16-24, female, high school, Oregon  
+P455, 25-34, male, senior (4 years of college), California  
+P456, 35-44, female, masters, Colorado  
+P457, 25-34, female, senior (4 years of college), Texas  
+P458, 25-34, male, high school, Arizona  
+P459, 25-34, male, senior (4 years of college), California  
+P460, 25-34, male, masters, New York  
+P461, 25-34, male, senior (4 years of college), Texas  
+P462, 45-54, male, junior (3 years of college), Maine  
+P463, 25-34, male, senior (4 years of college), Illinois  
+P464, 35-44, male, masters, California  
+P465, 25-34, male, senior (4 years of college), Florida  
+P466, 25-34, male, senior (4 years of college), Virginia  
+P467, 35-44, male, senior (4 years of college), Virginia  
+P468, 35-44, female, senior (4 years of college), Colorado  
+P469, 25-34, male, senior (4 years of college), Florida  
+P470, 45-54, female, senior (4 years of college), California  
+P471, 55-64, male, senior (4 years of college), California  
+P472, 25-34, male, senior (4 years of college), Florida  
+P473, 45-54, male, high school, Missouri  
+P474, 25-34, male, senior (4 years of college), Ohio  
+P475, 35-44, male, senior (4 years of college), Ohio  
+P476, 45-54, female, junior (3 years of college), Tennessee  
+P477, 35-44, female, senior (4 years of college), California  
+P478, 45-54, female, senior (4 years of college), South Carolina  
+P479, 25-34, male, sophomore (2 years of college), Ohio  
+P480, 45-54, male, masters, Arkansas  
+P481, 55-64, female, high school, New York  
+P482, 25-34, male, senior (4 years of college), California  
+P483, 25-34, male, senior (4 years of college), California  
+P484, 35-44, male, senior (4 years of college), Washington  
+P485, 55-64, female, masters, Colorado  
+P486, 25-34, female, senior (4 years of college), Colorado  
+P487, 25-34, male, masters, California  
+P488, 25-34, male, senior (4 years of college), Washington  
+P489, 35-44, male, junior (3 years of college), California  
+P490, 25-34, female, senior (4 years of college), Kentucky  
+P491, 25-34, male, sophomore (2 years of college), California  
+P492, 55-64, female, junior (3 years of college), Ohio  
+P493, 25-34, male, senior (4 years of college), California  
+P494, 16-24, male, sophomore (2 years of college), Georgia  
+P495, 25-34, male, high school, Connecticut  
+P496, 35-44, female, masters, Tennessee  
+P497, 25-34, male, freshman (1 year of college), Colorado  
+P498, 35-44, male, masters, Texas  
+P499, 25-34, male, senior (4 years of college), Texas  
+P500, 25-34, male, senior (4 years of college), New York  
+P501, 35-44, male, masters, Arizona  
+P502, 25-34, male, sophomore (2 years of college), Texas  
+P503, 55-64, male, senior (4 years of college), Pennsylvania  
+P504, 25-34, male, high school, Georgia  
+P505, 25-34, female, senior (4 years of college), Minnesota  
+P506, 25-34, male, masters, New York  
+P507, 25-34, male, senior (4 years of college), New York  
+P508, 65-74, female, masters, Kentucky  
+P509, 35-44, male, high school, Ohio  
+P510, 25-34, male, sophomore (2 years of college), Colorado  
+P511, 35-44, female, senior (4 years of college), Texas  
+P512, 25-34, male, sophomore (2 years of college), Missouri  
+P513, 45-54, male, senior (4 years of college), North Carolina  
+P514, 25-34, male, masters, Virginia  
+P515, 35-44, male, freshman (1 year of college), Maryland  
+P516, 25-34, male, senior (4 years of college), New York  
+P517, 55-64, female, masters, New York  
+P518, 35-44, male, senior (4 years of college), Ohio  
+P519, 25-34, male, high school, California  
+P520, 25-34, male, masters, New York  
+P521, 25-34, male, masters, Colorado  
+P522, 45-54, male, senior (4 years of college), California  
+P523, 16-24, male, senior (4 years of college), Texas  
+P524, 25-34, male, senior (4 years of college), Tennessee  
+P525, 45-54, male, masters, California  
+P526, 25-34, male, masters, California  
+P527, 35-44, female, masters, Texas  
+P528, 35-44, female, senior (4 years of college), Michigan  
+P529, 45-54, female, senior (4 years of college), District of Columbia  
+P530, 55-64, male, senior (4 years of college), California  
+P531, 25-34, female, senior (4 years of college), New York  
+P532, 35-44, female, masters, Texas  
+P533, 45-54, female, masters, Michigan  
+P534, 25-34, male, freshman (1 year of college), Washington  
+P535, 35-44, male, senior (4 years of college), California  
+P536, 25-34, female, masters, California  
+P537, 35-44, male, masters, Illinois  
+P538, 25-34, female, senior (4 years of college), Washington  
+P539, 45-54, male, senior (4 years of college), North Carolina  
+P540, 45-54, female, freshman (1 year of college), Florida  
+P541, 16-24, male, sophomore (2 years of college), New Hampshire  
+P542, 45-54, male, masters, Georgia  
+P543, 35-44, female, senior (4 years of college), Pennsylvania  
+P544, 35-44, female, masters, Georgia  
+P545, 35-44, male, masters, New Jersey  
+P546, 25-34, male, senior (4 years of college), Texas  
+P547, 35-44, female, masters, Hawaii  
+P548, 35-44, male, senior (4 years of college), North Carolina  
+P549, 55-64, male, senior (4 years of college), Indiana  
+P550, 25-34, female, masters, Florida  
+P551, 25-34, female, masters, California  
+P552, 25-34, male, masters, Georgia  
+P553, 25-34, male, high school, North Carolina  
