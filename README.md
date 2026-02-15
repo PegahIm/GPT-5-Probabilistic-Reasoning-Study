@@ -81,9 +81,4 @@ Specifically:
 - The demographic structure used for GPT-5 persona conditioning mirrors the participant demographics reported in Huang et al. (2025).
 - The probabilistic judgment questions correspond to those used in Huang et al. (2025).
 - Human data from Huang et al. (2025) are included for comparative analysis and are properly credited.
-- The demographic structure used for GPT-5 persona conditioning mirrors the participant demographics reported in Huang et al. (2025).
-- The probabilistic judgment questions correspond to those used in Huang et al. (2025).
-- Human data from Huang et al. (2025) are included for comparative analysis and are properly credited.
-
-All credit for the original human data and experimental design belongs to Huang et al. (2025).
 
