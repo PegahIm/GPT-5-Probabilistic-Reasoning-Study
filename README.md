@@ -22,11 +22,6 @@ GPT-5-Probabilistic-Reasoning/
 ├── data_gpt_raw/             
 │   Raw GPT-5 output files (CSV).
 │
-│   ├── demographics_T1CL_2020.txt
-│   ├── demographics_T2CL_2020.txt
-│   ├── demographics_T1CL_2028.txt
-│   └── demographics_T2CL_2028.txt
-│
 ├── questions/                
 │   Probabilistic judgment questions administered to GPT-5.
 │   These correspond to the question structure used in
