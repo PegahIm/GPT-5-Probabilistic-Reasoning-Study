@@ -66,12 +66,16 @@ GPT-5-Probabilistic-Reasoning/
 
 ## Running the Python Scripts
 
-1. **Install dependencies**
+1. Install dependencies
+```{r}
    pip install -r requirements.txt
-2. Create a .env file based on .env.example and add your OpenAI API key.
-3. Run the scripts
+```
+3. Create a .env file based on .env.example and add your OpenAI API key.
+4. Run the scripts
+```{r}
    python python/collect_gpt_2020.py
    python python/collect_gpt_2028.py
+```
 
 ## Reproducing the Statistical Analysis
 
@@ -119,5 +123,6 @@ install.packages(c(
   "effsize", "patchwork", "readxl", "ggplot2",
   "dplyr", "tidyr", "tidyverse", "here"
 ))
+```
 
 sessionInfo()
