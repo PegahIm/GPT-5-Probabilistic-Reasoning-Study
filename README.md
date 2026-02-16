@@ -1,8 +1,6 @@
 # GPT-5-Probabilistic-Reasoning-Study
-This repository contains all materials, data, prompts, and analysis scripts used in the project:
-
-## GPT-5 Probabilistic Reasoning
-The repository enables full computational reproducibility of the GPT-5 simulations and statistical analyses reported in the manuscript.
+This repository contains all materials, data, prompts, and analysis scripts used in the project **GPT‑5 Probabilistic Reasoning**.  
+It is organized to support full computational reproducibility of the GPT‑5 simulations and statistical analyses reported in the manuscript.
 
 ## Overview
 This project evaluates probabilistic coherence and fallacy patterns (conjunction, disjunction, and complementarity) in GPT-5 under two experimental conditions:
@@ -66,6 +64,24 @@ GPT-5-Probabilistic-Reasoning/
 │   Prevents sensitive files (e.g., API keys) from being uploaded.
 ```
 
+## Running the Python Scripts
+
+1. **Install dependencies**
+   pip install -r requirements.txt
+2. Create a .env file based on .env.example and add your OpenAI API key.
+3. Run the scripts
+   python python/collect_gpt_2020.py
+   python python/collect_gpt_2028.py
+
+## Reproducing the Statistical Analysis
+
+1. Open the repository as an RStudio Project.
+2. Restart the R session.
+3. Open GPT-5-Probabilistic-Reasoning.Rmd.
+4. Click Knit or Run All.
+
+All figures and statistical outputs reported in the manuscript will be reproduced automatically.
+
 ## Use of Huang et al. (2025) Materials
 
 This project builds upon the experimental design reported in:
@@ -81,3 +97,27 @@ Specifically:
 - The probabilistic judgment questions correspond to those used in Huang et al. (2025).
 - Human data from Huang et al. (2025) are included for comparative analysis and are properly credited.
 
+All credit for the original human data and experimental design belongs to Huang et al. (2025).
+
+## Required R Packages
+
+The analysis requires the following R packages:
+
+- effsize  
+- patchwork  
+- readxl  
+- ggplot2  
+- dplyr  
+- tidyr  
+- tidyverse
+- here  
+
+If any are missing, install them using:
+
+```r
+install.packages(c(
+  "effsize", "patchwork", "readxl", "ggplot2",
+  "dplyr", "tidyr", "tidyverse", "here"
+))
+
+sessionInfo()
