@@ -22,11 +22,6 @@ GPT-5-Probabilistic-Reasoning/
 ├── data_gpt_raw/             
 │   Raw GPT-5 output files (CSV).
 │
-├── demographics/             
-│   Persona profiles used for GPT-5 simulations.
-│   These correspond to the demographic structure of the human
-│   participants reported in Huang et al. (2025).
-│
 │   ├── demographics_T1CL_2020.txt
 │   ├── demographics_T2CL_2020.txt
 │   ├── demographics_T1CL_2028.txt
@@ -102,6 +97,7 @@ Specifically:
 - Human data from Huang et al. (2025) are included for comparative analysis and are properly credited.
 
 All credit for the original human data and experimental design belongs to Huang et al. (2025).
+**Demographic information itself is not included in this repository; these materials are available directly from Huang et al. (2025).**
 
 ## Required R Packages
 
