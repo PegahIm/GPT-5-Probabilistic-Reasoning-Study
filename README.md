@@ -125,4 +125,3 @@ install.packages(c(
 ))
 ```
 
-sessionInfo()
